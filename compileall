@@ -1,0 +1,6 @@
+#!/bin/bash
+gcc --std=c99 -pthread -o enc_server enc_server.c -ggdb3
+gcc --std=c99 -pthread -o dec_server dec_server.c -ggdb3
+gcc --std=c99 -o dec_client dec_client.c -ggdb3
+gcc --std=c99 -o enc_client enc_client.c -ggdb3
+gcc --std=c99 -o keygen keygen.c -ggdb3
